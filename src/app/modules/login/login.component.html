@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+
+    <span class="p-float-label">
+        <input id="float-input-invalid" type="text" pInputText [(ngModel)]="username" class="ng-invalid ng-dirty">
+        <label for="float-input-invalid">Username</label>
+    </span>
+    <span class="p-float-label">
+        <input id="float-input-invalid" type="text" pInputText [(ngModel)]="password" class="ng-invalid ng-dirty">
+        <label for="float-input-invalid">Password</label>
+    </span>
+</form>
